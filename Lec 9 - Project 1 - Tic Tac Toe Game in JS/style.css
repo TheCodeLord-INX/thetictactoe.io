@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=DotGothic16&family=Rubik+Maps&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #051923;
+}
+
+main {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Bungee Spice";
+  font-size: 5em;
+}
+
+.container {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.baari-jeet{
+    font-family: DotGothic16;
+    font-size: larger;
+    font-weight: 900;
+    color: #cae9ff;
+}
+
+.game {
+  margin: 5vh;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 350px;
+  width: 350px;
+  gap: 10px;
+}
+
+.box {
+  font-family: rubik maps;
+  background-color: #051923;
+  color: #e0fbfc;
+  border: none;
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+#reset-btn {
+  padding: 0.5rem;
+  margin-top: 5vh;
+  /* border: none; */
+    border-radius: 5px;
+    background-color: #f3722c;
+    color: #eae0d5;
+    font-family: 'Researcher', sans-serif;
+    font-weight: 700;
+    font-size:2rem ;
+    cursor:grab;
+}
